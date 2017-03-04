@@ -13,10 +13,3 @@ markdown: kramdown
 #Disqus configuration
 disqus_short_name: maangalabscom
 disqus_show_comment_count: true
-
-#Can be used for multiple author blogs ! Add name to post For more visit the sample
-authors:
-  kirkwright:
-    display_name: Kirk Wright
-    email: franklinkirkwright@gmail.com
-    twitter: @HeyKirkland
