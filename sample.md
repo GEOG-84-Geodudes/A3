@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Sample Page
-permalink: /sample/
+title: Documentation
+permalink: /documentation/
 ---
 
 
-Sample page.
+Here is where we'll write a bit about the site and how it can be used.
