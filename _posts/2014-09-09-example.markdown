@@ -14,39 +14,4 @@ Here is the part where the map will be.
 
 <!-- more -->
 
-**Basic**
-
-Neque porro *quisquam* est, qui **dolorem** ipsum, quia ***dolor*** sit, amet, [consectetur](http://cjdns.info/), adipisci velit.
-
- * lorem
- * ipsum
-
-1. dolor
-2. sit
-
-
-**Blockquote**
-
-> They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.
-> 
-> _Benjamin Franklin_
-
-**Code**
-
-{% highlight c %}
-
-static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
-{
-    struct Admin* admin = Identity_check((struct Admin*) vAdmin);
-    int64_t enabled = admin->asyncEnabled;
-    Dict d = Dict_CONST(String_CONST("asyncEnabled"), Int_OBJ(enabled), NULL);
-    Admin_sendMessage(&d, txid, admin);
-}
-
-{% endhighlight %}
-
-**Image**
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19840.349338147877!2d-0.20021229999999998!3d51.567433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1488635077994" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-![ThisIsADemoPhoto](http://media.vector4free.com/normal/flat-banner-vectors.jpg)
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19840.349338147877!2d-0.20021229999999998!3d51.567433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1488635077994" width="1000" height="750" frameborder="0" style="border:0" allowfullscreen></iframe>
