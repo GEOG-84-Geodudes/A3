@@ -3,6 +3,9 @@ layout: default
 index: true
 ---
 <div class="col-sm-8 col-sm-offset-2">
+    <h3>Welcome to the Montreal Study Space Search!</h3>
+    <p>Here, you can look for the perfect spot to get productive. Each study space listed on this site has been added by students like you looking for new places to study in Montreal.</p>
+    <p>Through the mapping tool, you can look at Montreal students' favourite study spots and compare their noise levels, food prices and more. If you like what you see, please contribute to the map with your favourite spots to add to the collection currently on the site by filling out <a href="https://docs.google.com/forms/d/e/1FAIpQLScLUYIWn_pTYCawtaXYZ5inQhyldUd06R3_s95ZfxffDZWqpQ/viewform?usp=sf_link" >this form</a>. Enjoy!</p>
     {% for post in site.posts %}
     <div class="post-meta">
         <h3><a href="{{ post.url | prepend: site.baseurl }}">See the {{ post.title }}</a></h3>
