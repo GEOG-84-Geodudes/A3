@@ -10,12 +10,6 @@ index: true
     <div class="post-meta">
         <h3><a href="{{ post.url | prepend: site.baseurl }}">See the {{ post.title }}</a></h3>
         <img src="{{post.featured_image  | prepend: site.baseurl}} ">
-        <div class="post-descr">
-            {% if post.content contains '<!-- more -->' %}
-            <p>{{ post.content | split:'<!-- more -->' | first }}
-                <a href="{{ post.url  | prepend: site.baseurl}}" class="btn btn-primary">Read More</a>
-            </p>
-        </div>
     </div>
     {% else %} {{ post.content }} {% endif %} {% endfor %}
 </div>
