@@ -17,15 +17,5 @@ index: true
             </p>
         </div>
     </div>
-    <script src='https://api.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css' rel='stylesheet' />
-            <div id='map' style='width: 400px; height: 300px;'></div>
-    <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiaWNlY3J5c3RhbDE3IiwiYSI6ImNqMDFoM2RvejA2cHcycHFseXdwZDl6dGMifQ.IhZIlfu00pwrtq8VEBlvOg';
-    var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v10'
-    });
-    </script>
     {% else %} {{ post.content }} {% endif %} {% endfor %}
 </div>
