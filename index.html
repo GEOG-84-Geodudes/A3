@@ -11,5 +11,5 @@ index: true
         <h3><a href="{{ post.url | prepend: site.baseurl }}">See the {{ post.title }}</a></h3>
         <img src="{{post.featured_image  | prepend: site.baseurl}} ">
     </div>
-    {% else %} {{ post.content }} {% endif %} {% endfor %}
+    {% endfor %}
 </div>
