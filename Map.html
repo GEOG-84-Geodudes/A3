@@ -9,18 +9,15 @@
 	<script type="text/javascript" src="tabletop.js"></script>
     	<script type="text/javascript" src="mapsheet.js"></script>
 	<div id='map' style='width: 700px; height: 600px;'></div>
-	<script type="text/javascript">
-        	var published_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1iCN2FgznBdmCA3eYrJ-ZmX_RjVc16cpkzGZ9DYyxagI/edit#gid=441027891'; 
-    </script>
 	<script>
 		mapboxgl.accessToken = 'pk.eyJ1IjoiaWNlY3J5c3RhbDE3IiwiYSI6ImNqMDFoM2RvejA2cHcycHFseXdwZDl6dGMifQ.IhZIlfu00pwrtq8VEBlvOg';
 		var map = new mapboxgl.Map({
     			container: 'map',
-    			key: published_spreadsheet_url,
-			style: 'mapbox://styles/mapbox/streets-v10',
+    			style: 'mapbox://styles/mapbox/streets-v10',
 			center: [-73.5781, 45.5017],
 			zoom: 12
 		});
+		<script src='https://api.mapbox.com/geocoding/v5/{map.places}/{https://docs.google.com/spreadsheets/d/1iCN2FgznBdmCA3eYrJ-ZmX_RjVc16cpkzGZ9DYyxagI/pub?output=csv}.json'></script>
 	</script>
 </body>
 </html>
