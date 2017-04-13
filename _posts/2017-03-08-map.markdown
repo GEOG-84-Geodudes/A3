@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Study Space Map"
-date:   2016-03-07 22:37:00 +05:30
+date:   2016-04-13 22:37:00 +05:30
 categories: map
 author: kirkwright
 github_repo_username: pranavrajs
